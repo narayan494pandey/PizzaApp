@@ -1,16 +1,16 @@
 import React from 'react'
 import {
-    ProductsContainer,ProductsHeading,
+    ProductsContainer,ProductHeading,
     ProductWrapper,ProductCard,ProductDesc,ProductImg,
     ProductInfo,ProductPrice,ProductTitle,ProductButton
 } from './ProductElements.js'
 
-const Products = () => {
+const Products = ({heading,data}) => {
     return (
         <ProductsContainer>
-            <ProductsHeading>
-            Heading
-            </ProductsHeading>
+            <ProductHeading>
+            {heading}
+            </ProductHeading>
             <ProductWrapper>
                         {data.map((product,index) =>{
                             return(

@@ -1,7 +1,7 @@
-import product1 from '../../images/product3.jpg';
-import product1 from '../../images/product3.jpg';
-import product1 from '../../images/product3.jpg'
-export const productData = [
+import product1 from '../../Images/product-1.jpg';
+import product2 from '../../Images/product-2.jpg';
+import product3 from '../../Images/product-3.jpg';
+export const  productData = [
     {
         img:product1,
         alt:'Pizza',
